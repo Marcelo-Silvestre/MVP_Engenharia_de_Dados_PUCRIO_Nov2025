@@ -141,7 +141,7 @@ Abaixo, cada tabela é documentada com sua descrição específica.
 
 ---
 
-# ✔ Linhagem dos Dados
+# Linhagem dos Dados
 
 1. **Origem:** DATASUS TABNET  
 2. **Download manual:** Nov/2025  
@@ -151,7 +151,7 @@ Abaixo, cada tabela é documentada com sua descrição específica.
 
 ---
 
-# ✔ Responsável pela Documentação
+# Responsável pela Documentação
 
 **Marcelo Alexandre Machado Silvestre**
 
