@@ -10,7 +10,7 @@ Cada tabela segue o formato exportado do TABNET:
 
 ---
 
-# 📁 Lista de arquivos (22 CSVs)
+# Lista de arquivos (22 CSVs)
 
 1. obitos_geral.csv  
 2. obitos_hiv_geral.csv  
@@ -37,7 +37,7 @@ Cada tabela segue o formato exportado do TABNET:
 
 ---
 
-# 📘 Estrutura geral das tabelas
+# Estrutura geral das tabelas
 
 Todas as tabelas possuem o mesmo padrão estrutural:
 
@@ -54,7 +54,7 @@ Todas as tabelas possuem o mesmo padrão estrutural:
 
 ---
 
-# 🧹 Observações Gerais de Tratamento
+# Observações Gerais de Tratamento
 
 - valores `"-"` foram convertidos para `0`;
 - todas as colunas de ano foram convertidas para **inteiro (INT)**;
@@ -66,7 +66,7 @@ Todas as tabelas possuem o mesmo padrão estrutural:
 
 ---
 
-# 📘 Domínios de cada coluna
+# Domínios de cada coluna
 
 ### cod_ibge  
 - string  
@@ -86,7 +86,7 @@ Todas as tabelas possuem o mesmo padrão estrutural:
 
 ---
 
-# 📚 Dicionário por arquivo
+# Dicionário por arquivo
 
 Abaixo, cada tabela é documentada com sua descrição específica.
 
@@ -119,27 +119,25 @@ Abaixo, cada tabela é documentada com sua descrição específica.
 
 ---
 
-## 8–10. Tabelas faixa 10–25  
-- mesmo padrão acima.
+## 8–10. Tabelas faixa 10–25 (geral, fem, masc)  
+- **Descrição:** óbitos por HIV em pessoas de **10 a 25 anos**, com filtros por sexo quando aplicável.
 
 ---
 
-## 11–13. Tabelas faixa 25–40
-
+## 11–13. Tabelas faixa 25–40 (geral, fem, masc) 
+- **Descrição:** óbitos por HIV em pessoas de **25 a 40 anos**, com filtros por sexo quando aplicável.
 ---
 
-## 14–16. Tabelas faixa 40–55
-
+## 14–16. Tabelas faixa 40–55 (geral, fem, masc) 
+- **Descrição:** óbitos por HIV em pessoas de **40 a 55 anos**, com filtros por sexo quando aplicável.
 ---
 
-## 17–19. Tabelas faixa 55–65
-
+## 17–19. Tabelas faixa 55–65 (geral, fem, masc) 
+- **Descrição:** óbitos por HIV em pessoas de **55 a 65 anos**, com filtros por sexo quando aplicável.
 ---
 
 ## 20–22. Tabelas 65+ (geral, fem, masc)
-
-- **Descrição:** óbitos por HIV em idosos acima de 65 anos.
-- **Observação:** contém maior incidência em alguns estados, usada nas perguntas 4–6.
+- **Descrição:** óbitos por HIV em pessoas de **65 anos ou mais **, com filtros por sexo quando aplicável.
 
 ---
 
