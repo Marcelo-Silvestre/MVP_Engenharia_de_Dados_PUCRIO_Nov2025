@@ -41,30 +41,24 @@ Todos os dados são públicos e foram obtidos do **DATASUS TABNET**, a partir do
 - *Lista Morb CID-10: Doença pelo vírus da imunodeficiência humana [HIV]*  
 - Período filtrado: **2020 → 2025**
 
-As bases foram exportadas manualmente da interface TABNET, nos formatos CSV.
+As bases foram exportadas manualmente da interface TABNET, nos formatos CSV, no seguinte endereço:
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/niuf.def
 
-**Data do download:** Novembro/2025.
+**Data do download:** 10 de Novembro de 2025.
 
 ---
 
 ## Arquitetura do Projeto (Databricks)
 
-
----
-
-## Estrutura do Repositório
-
 Workspace Databricks
 ├── mvp_datasus
 │ ├── bronze
-│ │ ├── raw_table/ # CSV originais
-│ │ └── tables_delta/ # tabelas Delta brutas
+│ │ ├── Volume raw_table/ # CSV originais
+│ │ └── Tabelas Delta brutas
 │ ├── silver
-│ │ └── tables_delta/ # tabelas tratadas e tipadas
+│ │ └── Tabelas tratadas e tipadas
 │ └── gold
 │ └── agregacoes/ # tabelas agregadas e análises
-
-
 ---
 
 ## Pipeline ETL (Resumo)
@@ -88,7 +82,8 @@ Workspace Databricks
   - Ano  
   - Faixa etária  
   - Sexo  
-  - Raça/cor  
+  - Raça/cor
+    
 - Materialização das análises que respondem às perguntas 1–9.
 
 ---
@@ -97,11 +92,9 @@ Workspace Databricks
 
 O arquivo **Power BI** contendo todos os gráficos e indicadores está em:
 
-
-
 ---
 
-## 🧪 Qualidade dos Dados
+## Qualidade dos Dados
 
 - Verificação de schema em todas as 22 tabelas.  
 - Detecção e correção de valores nulos.  
@@ -112,7 +105,7 @@ O arquivo **Power BI** contendo todos os gráficos e indicadores está em:
 
 ---
 
-## 🔄 Reprodutibilidade
+## Reprodutibilidade
 
 Para executar o pipeline:
 
@@ -130,10 +123,10 @@ Todos os dados utilizados são públicos e disponibilizados por órgãos do Gove
 
 ---
 
-## ✍️ Autor
+## Autor
 
-**Marcelo Silvestre**  
-Projeto desenvolvido para a disciplina de Engenharia de Dados — PUC-Rio.
+**Marcelo Alexandre Machado Silvestre**  
+Projeto desenvolvido para a Sprint Engenharia de Dados da Pós em Ciência de Dados e Analytics da PUC-Rio.
 
 
 
