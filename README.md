@@ -50,16 +50,8 @@ http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/niuf.def
 
 ## Arquitetura do Projeto (Databricks)
 
-Workspace Databricks
-├── mvp_datasus
-│ ├── bronze
-│ │ ├── Volume raw_table/ # CSV originais
-│ │ └── Tabelas Delta brutas
-│ ├── silver
-│ │ └── Tabelas tratadas e tipadas
-│ └── gold
-│ └── agregacoes/ # tabelas agregadas e análises
----
+<img width="419" height="258" alt="image" src="https://github.com/user-attachments/assets/d2c0d66e-efa4-4078-b9cb-6b5864ccf800" />
+
 
 ## Pipeline ETL (Resumo)
 
