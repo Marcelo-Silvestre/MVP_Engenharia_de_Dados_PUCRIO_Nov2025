@@ -1,5 +1,5 @@
 
-**1. Análise de Qualidade dos Dados**
+#**1. Análise de Qualidade dos Dados**
 
 A etapa de qualidade dos dados foi realizada após a carga das tabelas Delta na camada Silver. As verificações incluíram:
 
