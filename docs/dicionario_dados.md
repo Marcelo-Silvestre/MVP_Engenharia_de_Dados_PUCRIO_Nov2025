@@ -99,7 +99,7 @@ Abaixo, cada tabela é documentada com sua descrição específica.
 ---
 
 ## 2. obitos_hiv_geral.csv
-- **Descrição:** total geral de óbitos por HIV por UF (sexo + idade + raça).  
+- **Descrição:** total geral de óbitos por HIV por UF (sexo + idade).  
 - **Tabela base da análise principal.**
 
 ---
@@ -146,8 +146,8 @@ Abaixo, cada tabela é documentada com sua descrição específica.
 1. **Origem:** DATASUS TABNET  
 2. **Download manual:** Nov/2025  
 3. **Camada Bronze:** CSV → Delta  
-4. **Camada Silver:** limpeza, padronização, unpivot  
-5. **Camada Gold:** agregações e construção da `fact_obitos_hiv`
+4. **Camada Silver:** limpeza e padronização  
+5. **Camada Gold:** agregações e construção da `fato_obitos_hiv`
 
 ---
 
