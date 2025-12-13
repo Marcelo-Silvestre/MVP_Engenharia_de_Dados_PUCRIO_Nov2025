@@ -60,7 +60,7 @@ A modelagem segue uma abordagem em estrela (**Star Schema**).
 | ano          | INT    |Chave estrangeira para dim_ano          |
 | faixa        | INT    |Chave estrangeira para dim_faixa_etaria |
 | sexo         | INT    |Chave estrangeira para dim_ano          |
-| qtd_obitos   | INT    |Quantidade de óbitos segundo critérios  |
+| qtd_obt      | INT    |Quantidade de óbitos segundo critérios  |
 
 ### **Tabela: dim_uf**
 
