@@ -26,7 +26,7 @@ Abaixo estão listados os prints de tela que comprovam o desenvolvimento do MVP 
 ---
 ###4- Lista dos notebooks:
 ---
-![](imagens/databricks_print_lista_notebooks.png)
+![](imagens/databricks_print_notebooks.png)
 
 ---
 **Observação:**  
