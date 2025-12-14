@@ -55,7 +55,7 @@ A modelagem segue uma abordagem em estrela (**Star Schema**).
 
 | Coluna       | Tipo   | Descrição                              |
 | ------------ | ------ | ---------------------------------------|
-| id_fato      | STRING |Chave primária da tabela                |
+| id_fato      | INT    |Chave primária da tabela                |
 | uf           | INT    |Chave estrangeira para dim_uf           |
 | ano          | INT    |Chave estrangeira para dim_ano          |
 | faixa        | INT    |Chave estrangeira para dim_faixa_etaria |
@@ -108,7 +108,8 @@ A modelagem segue uma abordagem em estrela (**Star Schema**).
 
 ## 6. Diagrama Simplificado
 
-<img width="829" height="469" alt="esquema_estrela_mvp" src="https://github.com/user-attachments/assets/15d99fe9-206d-4b18-a5f6-74054460e8c2" />
+<img width="829" height="469" alt="esquema_estrela_mvp" src="https://github.com/user-attachments/assets/901567db-3029-4eff-8dcd-6f9b2341fa2c" />
+
 
 ## 7. Considerações Finais
 
