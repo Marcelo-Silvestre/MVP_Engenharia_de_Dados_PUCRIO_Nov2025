@@ -29,6 +29,6 @@ Não foram identificadas inconsistências estruturais como colunas duplicadas, s
 
 ## **1.4 Impressão das 5 primeiras linhas de cada tabela**
 
-Foram exibidas automaticamente no notebook [](notebooks/04_silver_validacoes.ipynb), registrando evidência para todas as 22 tabelas.
+Foram exibidas automaticamente no notebook 04_silver_validacoes.ipynb, registrando evidência para todas as 22 tabelas.
 
 
